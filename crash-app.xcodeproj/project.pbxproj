@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD00992029296EDB001A89BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD00991F29296EDB001A89BD /* SecondViewController.m */; };
 		AD986DDF29291FB500C6B4B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD986DDE29291FB500C6B4B9 /* AppDelegate.m */; };
 		AD986DE229291FB500C6B4B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD986DE129291FB500C6B4B9 /* SceneDelegate.m */; };
 		AD986DE529291FB500C6B4B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD986DE429291FB500C6B4B9 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD00991E29296EDB001A89BD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AD00991F29296EDB001A89BD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AD986DDA29291FB500C6B4B9 /* crash-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crash-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD986DDD29291FB500C6B4B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD986DDE29291FB500C6B4B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				AD986DEB29291FB900C6B4B9 /* LaunchScreen.storyboard */,
 				AD986DEE29291FB900C6B4B9 /* Info.plist */,
 				AD986DEF29291FB900C6B4B9 /* main.m */,
+				AD00991E29296EDB001A89BD /* SecondViewController.h */,
+				AD00991F29296EDB001A89BD /* SecondViewController.m */,
 			);
 			path = "crash-app";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD00992029296EDB001A89BD /* SecondViewController.m in Sources */,
 				AD986DE529291FB500C6B4B9 /* ViewController.m in Sources */,
 				AD986DDF29291FB500C6B4B9 /* AppDelegate.m in Sources */,
 				AD986DF029291FB900C6B4B9 /* main.m in Sources */,
